@@ -17,6 +17,8 @@ https://github.com/k8z7/Ui_Test/blob/master/app/src/main/res/layout/activity_mai
 
 위 메인 레이아웃 파일의 다음 코드를 참고하세요.
 
+이것은 흉내만 낸 것이며 실제 애니메이션으로 슬라이딩되는 코드는 다른 예제를 참고하시기 바랍니다.
+
         <FrameLayout ... android:layout_height="match_parent">
 
             <!-- 일반 레이아웃 -->
