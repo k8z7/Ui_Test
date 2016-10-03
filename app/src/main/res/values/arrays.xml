@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_locale">
+        <item>대한민국 국어</item>
+        <item>CANADA</item>
+        <item>CANADA_FRENCH</item>
+        <item>CHINA</item>
+        <item>CHINESE</item>
+        <item>ENGLISH</item>
+        <item>FRANCE</item>
+        <item>FRENCH</item>
+        <item>GERMAN</item>
+        <item>GERMANY</item>
+        <item>ITALIAN</item>
+        <item>ITALY</item>
+        <item>JAPAN</item>
+        <item>JAPANESE</item>
+        <item>KOREAN</item>
+        <item>PRC</item>
+        <item>SIMPLIFIED_CHINESE</item>
+        <item>TAIWAN</item>
+        <item>TRADITIONAL_CHINESE</item>
+        <item>UK</item>
+        <item>US</item>
+    </string-array>
+
+    <string-array name="arr_background">
+        <item>#05ffff00</item>
+        <item>#ffffff</item>
+        <item>#eeeeee</item>
+        <item>#dddddd</item>
+        <item>#cccccc</item>
+        <item>#bbbbbb</item>
+        <item>#aaaaaa</item>
+        <item>#999999</item>
+    </string-array>
+</resources>

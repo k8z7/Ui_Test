@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:visibility="gone"
+    android:id="@+id/inc_select">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#fcd587"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView style="@style/Bg_White"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="성경열기 옵션" />
+
+                <RadioGroup style="@style/Bg_White"
+                    android:orientation="horizontal"
+                    android:id="@+id/rg_bibleSelect">
+
+                    <RadioButton style="@style/Bg_White"
+                        android:text="책 선택"
+                        android:id="@+id/rb_bookOnly"
+                        android:layout_marginRight="5dp" />
+
+                    <RadioButton style="@style/Bg_White"
+                        android:text="장 선택"
+                        android:id="@+id/rb_bookJang"
+                        android:layout_marginRight="5dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lv_bBook"
+                    android:layout_weight="1"
+                    android:listSelector="#3369eb41"
+                    android:background="#eeeeff"/>
+
+                <ListView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lv_bJang"
+                    android:layout_weight="1"
+                    android:listSelector="#3369eb41"
+                    android:background="#ffffee" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

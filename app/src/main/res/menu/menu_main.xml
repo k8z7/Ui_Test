@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.kbh.Ui_Test.MainActivity">
+
+    <item android:id="@+id/action_select" android:title="L" app:showAsAction="always" />
+    <item android:id="@+id/action_search" android:title="S" app:showAsAction="always" />
+    <item android:id="@+id/action_explorer" android:title="E" app:showAsAction="always" />
+    <item android:id="@+id/action_bmth" android:title="B" app:showAsAction="always" />
+
+</menu>
